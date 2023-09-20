@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./pokemon.css"
 
 export default function Pokemon (props) {
@@ -8,6 +7,7 @@ export default function Pokemon (props) {
       <h1>Pokemon</h1>
       <p>Pokedex ID: {props.id}</p>
       <p>Pokemon Name: {props.name}</p>
+      <p>Types: {props.type}</p>
       <img src={props.sprite} alt={props.name} width={300} />
     </div>
   )

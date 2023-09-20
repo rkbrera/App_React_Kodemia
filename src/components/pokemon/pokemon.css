@@ -11,3 +11,15 @@
   font-weight:  bold;
   text-align: center;
 }
+
+.pokemon span {
+  font-size:  14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:  bold;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #eee;
+  padding: 5px 8px ;
+}
+
